@@ -1,0 +1,68 @@
+.skeleton {
+  background: rgb(241, 236, 236);
+  width: 100%;
+  margin: 5px 0px;
+  border-radius: 4px;
+}
+.skeleton.title {
+  height: 17px;
+  width: 60%;
+}
+.skeleton.text {
+  height: 10px;
+}
+.skeleton.avator {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.skeleton.image {
+  height: 100px;
+}
+.skeleton.avator_name {
+  height: 13px;
+  width: 30%;
+}
+.skeleton_wrapper {
+  width: 80%;
+  margin: 30px auto;
+  background-color: rgb(250, 249, 249);
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+.skeleton_blog {
+  position: relative;
+  overflow: hidden;
+  animation: loading 1s ease infinite alternate;
+}
+.avator_cont {
+  display: flex;
+  align-items: center;
+}
+.avator_cont .skeleton.avator {
+  margin-right: 10px;
+}
+/* .animation_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: loading 0.9s infinite;
+  animation-timing-function: linear;
+}
+.animation {
+  width: 100%;
+  height: 20%;
+  background: rgba(250, 248, 248, 0.3);
+} */
+
+@keyframes loading {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}

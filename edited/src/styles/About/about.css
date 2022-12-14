@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.__section {
+  position: relative;
+  padding: 0 10px;
+  width: 90%;
+  margin: 30px auto;
+  font-family: "Merriweather", serif;
+}
+.__section h2 {
+  font-size: 28px;
+  align-self: flex-start;
+  color: #2360dc;
+  margin-bottom: 10px;
+}
+
+.active {
+  transition-duration: 1s;
+  opacity: 1;
+  transform: scale(1.08);
+}
+.__private-lawyer {
+  margin-top: 20px;
+}
+.__private-lawyer .header {
+  font-weight: 300;
+}
+.__private-lawyer span {
+  border-bottom: 2px solid #2360dc;
+}
+.__accordion {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  padding: 10px;
+}
+.__accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  z-index: 999;
+  margin-bottom: 20px;
+}
+.__accordion-header h3 {
+  font-size: 14px;
+  font-weight: 300;
+}
+.__minus-icon {
+  color: #2360dc;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+}
+.show {
+  display: block;
+}
+
+.__plus-icon {
+  color: #2360dc;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 400;
+}
+.__underline {
+  border-bottom: 1px solid rgb(145, 141, 141);
+  margin: 10px 0;
+}
+.__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hideAccoriond {
+  max-height: 0;
+  overflow: hidden;
+
+  transition: all 0.8s ease-out;
+}
+.showAccordion {
+  max-height: 999px;
+  height: auto;
+  overflow: visible;
+
+  transition: all 0.8s ease-in;
+}
+.__inner-body {
+  display: flex;
+  margin-top: 20px;
+  overflow-y: hidden;
+}
+.__inner-body h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.__inner-body p {
+  font-size: 14px;
+  color: white;
+  font-weight: lighter;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.__inner-body .__container-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #2360dc;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0 20px;
+  color: white;
+}
+.icon__ {
+  font-size: 40px;
+}
+.__about-Mark {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 400px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.__about-Mark h3 {
+  font-weight: 400;
+}
+.aboutMe {
+  padding: 10px;
+  margin-top: 20px;
+}
+.aboutMe p {
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+  line-height: 24px;
+}
+.why {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 15px 0 15px 10px;
+}
+.why h4 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.why div {
+  margin-bottom: 7px;
+}
+.why span {
+  font-size: 15px;
+  margin-left: 10px;
+
+  line-height: 20px;
+}
+.post {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+.post img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+.post p {
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.post .btn {
+  padding: 0;
+  margin-left: 2px;
+  color: #f70;
+  font-size: 11px;
+  margin-left: 10px;
+}
+.readmore_container {
+  display: flex;
+  align-items: center;
+}
+.readMore {
+  font-weight: normal;
+  color: #f70;
+}
+.__latest-posts {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.special {
+  border-bottom: 2px solid #2360dc;
+}
+@media screen and (min-width: 760px) {
+  .__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    width: 100vw;
+    margin-left: 0px;
+
+    margin-bottom: 80px;
+  }
+  .__section h2 {
+    align-self: center;
+    display: none;
+  }
+  .img_wrapper {
+    height: 70%;
+    border: 2px solid black;
+  }
+  .img_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .slider {
+    width: 60vw;
+    height: 200px;
+    align-items: flex-start;
+  }
+  .single-img {
+    width: 40vw;
+  }
+  .__private-lawyer {
+    width: 100%;
+  }
+  .__about-Mark {
+    width: 30vw;
+    margin-top: -70px;
+  }
+  .__latest-posts {
+    width: 40vw;
+    padding: 20px;
+  }
+  .aboutMark_latestPost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+}

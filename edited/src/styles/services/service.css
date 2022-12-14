@@ -1,0 +1,196 @@
+.sService {
+  margin-bottom: 20px;
+}
+.Service h3 {
+  font-size: 25px;
+  margin-bottom: 37px;
+  font-weight: 500;
+}
+.Service h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px 0px;
+  color: #6198eb;
+  letter-spacing: 0.6px;
+}
+.service_title_container,
+.guarante_container {
+  background: #eeeeee;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Service .sSpecial {
+  border-bottom: 2px solid #f70;
+}
+.sMain {
+  display: flex;
+  width: 100%;
+  padding-left: 15px;
+}
+.sIconContainer {
+  width: auto;
+  height: fit-content;
+  background-color: #6198eb;
+  border-radius: 50%;
+  margin-right: 20px;
+  color: white;
+}
+.sIcons {
+  font-size: 24px;
+  margin: 20px;
+}
+.sText {
+  height: auto;
+
+  padding: 5px;
+}
+
+.Service .sText li {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(134, 130, 130);
+  padding-bottom: 4px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-weight: 200;
+}
+.pCenter {
+  display: flex;
+  align-items: center;
+}
+.sHeadings {
+  padding: 30px 0;
+  color: #676767;
+}
+.gMain {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.gMain h4 {
+  margin: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+}
+.gIconContainer {
+  width: auto;
+  height: auto;
+  background-color: #6198eb;
+  border-radius: 50%;
+  margin: 15px 0;
+  color: white;
+}
+.gIcons {
+  font-size: 30px;
+  margin: 20px;
+}
+.gMain h4 {
+  color: #6198eb;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 25px;
+}
+.gMain p {
+  font-size: 15px;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+}
+.gGap {
+  margin: 50px 0;
+}
+.gBorder {
+  border: 2px solid #5c514c;
+  width: 90%;
+  margin: 0px auto;
+}
+
+/* edited part */
+.service_title_container h2,
+.guarante_container h2 {
+  color: #676767;
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+}
+.service__row {
+  padding: 10px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 760px) {
+  .Service {
+    width: 100%;
+    margin: 0px auto;
+    background: white;
+  }
+  .service__row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+    width: 80%;
+    margin: 0 auto;
+  }
+  .sMain {
+    width: 100%;
+
+    padding-left: 50px;
+  }
+  .sService {
+    width: 30vw;
+  }
+  .gRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    align-items: flex-start;
+  }
+  .gMain {
+    width: 40vw;
+  }
+  #id1 {
+    padding-bottom: 90px;
+  }
+  #id3 {
+    margin: 0px;
+  }
+
+  .sIconContainer {
+    margin-top: 20px;
+  }
+  .Service h4 {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 15px 0px;
+    color: #6198eb;
+    letter-spacing: 0.9px;
+  }
+  .Service .sText li {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    list-style-type: circle;
+  }
+}

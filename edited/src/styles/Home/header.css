@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background-color: #49403b;
+  margin: 0 auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+header {
+  position: sticky;
+
+  top: 0;
+  z-index: 999;
+  height: 85px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 5px 20px;
+  margin: 0 auto;
+  background-color: white;
+  border-bottom: 1px solid #889fcc;
+}
+.slide {
+  position: fixed;
+  top: 80px;
+  left: 0px;
+  width: 50%;
+  height: 100vh;
+  background: white;
+  padding-top: 50px;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.6s ease;
+}
+.active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.6s ease;
+}
+.slider_link {
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  margin-bottom: 20px;
+}
+.slider_link p {
+  padding: 0;
+  padding-top: 0px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.slider_link span {
+  color: #2360dc;
+  text-align: center;
+  vertical-align: middle;
+}
+header div img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.logo_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.logo_img a {
+  padding: 0;
+}
+.hide {
+  display: none;
+}
+/* edited */
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  flex: 2;
+}
+.logo .left {
+  margin-left: 5px;
+}
+.logo .right {
+  margin-right: 5px;
+}
+.humburger {
+  color: #2360dc;
+  cursor: pointer;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+.active_p {
+  margin-right: 8px;
+}
+.afterLogo > h2 {
+  font-weight: 400;
+  color: rgb(207, 203, 203);
+  color: #2360dc;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+.afterLogo > h4 {
+  font-weight: 500;
+  color: black;
+}
+
+header a {
+  margin-top: -10px;
+}
+@media only screen and (min-width: 760px) {
+  header {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    height: 70px;
+  }
+  .hide {
+    display: block;
+  }
+
+  .phone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .hIconContainer {
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .phone_holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .phone_holder a {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+  }
+  .motto {
+    margin-left: 20px;
+    width: 430px;
+    padding: 10px;
+  }
+  .motto p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 5px;
+  }
+  .motto h3 {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 0;
+    flex-basis: 20%;
+  }
+  .logo_img {
+    margin-bottom: 0px;
+    margin-right: 10px;
+  }
+  .logo_img a {
+    padding: 0;
+    margin: 0px;
+  }
+  .humburger {
+    display: none;
+  }
+  .slide {
+    position: static;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.6s ease;
+    flex: 2;
+    padding: 0px 20px;
+  }
+  .slider_content {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+  }
+  .slider_link {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+  }
+  .slider_link span {
+    display: none;
+  }
+  .slider_link p {
+    color: #2360dc;
+    cursor: pointer;
+  }
+}
