@@ -1,0 +1,21 @@
+.bar_chart_container {
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 7px;
+  background: #191c24;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(37, 145, 251, 0.98) 0.1%,
+    rgba(0, 7, 128, 1) 99.8%
+  );
+  background: white;
+}
+.bar_items {
+  padding: 10px;
+}
+
+.bar_items h3 {
+  color: white;
+  text-align: center;
+  letter-spacing: 1.2px;
+}

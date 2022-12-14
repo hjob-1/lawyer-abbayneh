@@ -1,0 +1,32 @@
+.card_container {
+  background: #191c24;
+  background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    rgba(85, 88, 218, 1) 0%,
+    rgba(95, 209, 249, 1) 100.2%
+  );
+  width: 90%;
+  margin: 20px auto;
+  color: white;
+  border-radius: 7px;
+}
+.card_items {
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_item_left {
+  display: flex;
+  align-items: center;
+}
+.card_item_left h2 {
+  margin-right: 10px;
+}
+.card_item_right button {
+  border: none;
+  background: transparent;
+  color: green;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}

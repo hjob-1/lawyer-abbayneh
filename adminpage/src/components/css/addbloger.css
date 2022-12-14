@@ -1,0 +1,58 @@
+.input_wrapper {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.title p {
+  font-size: smaller;
+  color: #39c0ed;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.input_wrapper .inputs {
+  justify-self: center;
+  padding: 7px 5px;
+  margin-top: 5px;
+  background-color: #f3f3fa;
+  border: none;
+  outline: none;
+}
+.input_wrapper span {
+  color: #66666e;
+  text-transform: capitalize;
+}
+
+.button_wrapper button {
+  border: none;
+  color: white;
+  padding: 10px;
+  background-color: transparent;
+}
+.button_wrapper {
+  /* background: rgb(33, 80, 33); */
+  background: #39c0ed;
+  display: flex;
+  width: 62%;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+.input_wrapper .errorPass {
+  border: unset;
+  border: 1.5px solid red;
+}
+.input_wrapper .errorFull {
+  border: unset;
+  border: 1.5px solid red;
+}
+@media screen and (min-width: 400px) {
+  .input_wrapper {
+    width: 60%;
+  }
+}

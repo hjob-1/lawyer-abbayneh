@@ -1,0 +1,21 @@
+.service_widget {
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+  width: 90%;
+  margin: 20px auto;
+  color: white;
+  border-radius: 7px;
+}
+
+.services {
+  padding: 10px;
+  display: flex;
+  flex-flow: column wrap;
+}
+.service_icon {
+  display: flex;
+  justify-content: space-between;
+}
+.service_icon p,
+.service_icon h4 {
+  margin-bottom: 0px;
+}

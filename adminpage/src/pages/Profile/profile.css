@@ -1,0 +1,118 @@
+.profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto;
+  padding: 0;
+  height: 70vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  border-radius: 10px;
+  padding: 15px 0;
+}
+.main-profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  background: #fbfbfb;
+}
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.main-profile span {
+  color: #1e2527;
+  margin-right: 10px;
+  width: 100px;
+  display: inline-block;
+}
+.main-profile div {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 7px 0;
+  color: #39c0ed;
+  cursor: pointer;
+}
+.main-profile div .input-field {
+  background-color: transparent;
+  color: #1e2527;
+  padding-left: 5px;
+  border: none;
+  outline: none;
+}
+#edit-active {
+  outline: unset !important;
+  border: 1px solid black !important;
+}
+.edit-update {
+  color: #39c0ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.over-lay {
+  border: 1px solid red;
+  background-color: black;
+}
+.over-lay img {
+  width: 100vw;
+  border-radius: 0;
+  height: 120%;
+  opacity: 0.4;
+}
+.pencil {
+  font-size: 15px;
+  transition: 0.4s;
+  margin-left: 4px;
+}
+.pencil:hover {
+  color: rgb(29, 92, 209);
+}
+.overlay {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  margin-top: -16px;
+}
+.overlay img {
+  width: 100%;
+  border-radius: 0;
+  object-fit: cover;
+  height: 100%;
+  opacity: 0.4;
+}
+.profile-pic {
+  margin-top: -30px;
+  z-index: 9;
+}
+.btn-action-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-white {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 400px) {
+  .main-profile {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .main-profile {
+    width: 60%;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 10px;
+  }
+}

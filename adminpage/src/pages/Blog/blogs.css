@@ -1,0 +1,172 @@
+.blog {
+  height: 90vh;
+  background-color: #fbfbfb;
+  padding: 10px;
+}
+.blog-header {
+  font-size: 16px;
+  width: 90%;
+  margin: 10px 0;
+  color: #39c0ed;
+}
+.blogdetails {
+  width: 90%;
+  background-color: #fbfbfb;
+  text-transform: capitalize;
+  color: white;
+  margin: 10px auto;
+  padding: 10px;
+  height: auto;
+  position: relative;
+}
+.blogdetails img {
+  width: 100%;
+  margin-top: 20px;
+}
+.blogdetails h2 {
+  margin: 8px 0px;
+}
+.high {
+  z-index: 999;
+}
+.title {
+  color: #39c0ed;
+  font-size: 20px;
+}
+.blogdetails p {
+  font-size: 14px;
+  color: #262626;
+  line-height: 20px;
+  padding: 8px;
+}
+.blogdetailsheader {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  font-size: 12px;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.blogdetailsheader span {
+  font-size: 17px;
+  color: #39c0ed;
+}
+.special {
+  padding-bottom: 4px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+time {
+  color: #39c0ed;
+  font-size: 14px;
+}
+.blogDetailsfooter {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border-top: 1px solid #39c0ed;
+  padding: 10px 0;
+}
+.blogDetailsfooter div {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.blogDetailsfooter img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-top: -2px;
+}
+table {
+  font-size: 13px;
+}
+.input {
+  border: 1px solid #39c0ed;
+  background-color: transparent;
+  margin: 10px 0;
+  color: #494f52;
+  padding: 4px 5px;
+  outline: none;
+  transition: 0.6s;
+}
+.input:hover {
+  border: 1px solid #0f9bca;
+}
+
+.Add-icon {
+  position: fixed;
+  font-size: 30px;
+  color: rgb(18, 187, 145);
+  background-color: #39c0ed;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  top: 80%;
+  left: 80%;
+}
+
+.input-select {
+  margin: 15px 0;
+}
+.select-box {
+  margin-left: 25px;
+  padding: 5px;
+  text-transform: capitalize;
+  border: 1px solid #39c0ed;
+}
+
+.plus-icon {
+  display: flex;
+}
+.add-blog {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation-name: AddBlogModal;
+  animation-duration: 0.8s;
+  z-index: 99;
+}
+.add-blog button {
+  width: 95%;
+  margin: 20px auto;
+  color: white;
+  font-size: 20px;
+}
+.add-blog div {
+  display: flex;
+  text-transform: capitalize;
+  margin-top: 15px;
+  padding: 10px 0;
+}
+.add-blog div span {
+  width: 75px;
+  font-size: 18px;
+  display: inline-block;
+  padding-right: 5px;
+  margin-right: 10px;
+}
+.add-blog div input,
+textarea {
+  width: 75%;
+  padding: 6px;
+  border: 1px solid #39c0ed;
+  outline: none;
+}
+
+@keyframes AddBlogModal {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

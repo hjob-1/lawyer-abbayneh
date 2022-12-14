@@ -1,0 +1,51 @@
+.message {
+  background-color: #fbfbfb;
+  height: auto;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  z-index: 99;
+}
+.message-header {
+  color: #39c0ed;
+  font-size: 16px;
+}
+.message-details {
+  background-color: #fbfbfb;
+  height: auto;
+  padding: 15px;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.message-details h3 {
+  color: #39c0ed;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.message-details > p {
+  color: #262626;
+  margin-top: 20px;
+  line-height: 23px;
+}
+.who-sentit {
+  display: flex;
+
+  height: auto;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid #39c0ed;
+  padding: 14px 0;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 400px) {
+  .message {
+    background-color: #fbfbfb;
+    height: auto;
+    width: 100%;
+  }
+}

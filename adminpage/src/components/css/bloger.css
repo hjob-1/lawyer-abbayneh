@@ -1,0 +1,67 @@
+.bloger_detail {
+  margin: 30px 0px;
+
+  border-radius: 7px;
+  /* background: #191c24; */
+  background: #f6f6f6;
+  padding: 20px 40px;
+}
+.bloger_detail > p {
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  color: green;
+}
+.bloger_avator_container {
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+  color: #262626;
+}
+
+.avator_img {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.avator_img img {
+  width: 96%;
+  height: 96%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.email_phone {
+  color: #66666e;
+}
+
+.email_phone p {
+  margin-top: 7px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  text-transform: capitalize;
+}
+
+.email_phone code {
+  color: rgb(102, 102, 110);
+}
+.link {
+  text-decoration: none;
+  color: #39c0ed;
+  font-size: smaller;
+  margin-left: 10px;
+}
+.bloger_address_container {
+}
+
+@media screen and (min-width: 450px) {
+  .bloger_detail {
+    width: 45%;
+    margin-right: 10px;
+    margin: 15px 0px;
+  }
+}
